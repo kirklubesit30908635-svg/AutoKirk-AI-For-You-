@@ -1,0 +1,26 @@
+{
+  "name": "autokirk-sovereign-ai-1",
+  "version": "1.0.0",
+  "description": "Autokirk Sovereign AI Layer v1 \u2013 minimal control API + GitHub integration for command-driven deployment.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.7",
+    "diff": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^20.12.7",
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
